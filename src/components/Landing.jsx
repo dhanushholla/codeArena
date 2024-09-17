@@ -13,7 +13,7 @@ import Footer from "./Footer";
 import OutputWindow from "./OutputWindow";
 import CustomInput from "./CustomInput";
 import OutputDetails from "./OutputDetails";
-import ThemeDropdown from "./ThemeDropdown";
+import ThemeDropdown from "./ThemeDropDown";
 import LanguagesDropdown from "./LanguageDropdown";
 
 const javascriptDefault = `// Sample Snippet
