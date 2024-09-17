@@ -38,6 +38,7 @@ const Landing = () => {
   const clearHandler = () => {
     setCode('')
     setCustomInput('')
+    setOutputDetails(null)
   }
 
   const copyHandler = async () => {
