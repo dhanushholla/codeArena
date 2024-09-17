@@ -8,7 +8,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import { defineTheme } from "../lib/defineTheme";
-import useKeyPress from "./useKeyPress";
+import useKeyPress from "../hooks/useKeyPress";
 import Footer from "./Footer";
 import OutputWindow from "./OutputWindow";
 import CustomInput from "./CustomInput";
