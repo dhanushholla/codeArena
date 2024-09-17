@@ -1,0 +1,24 @@
+@keyframes gradientBorder {
+    0% {
+      border-image-source: linear-gradient(45deg, #00c6ff, #0072ff); /* Cyan to Blue */
+    }
+    25% {
+      border-image-source: linear-gradient(45deg, #f5a623, #ff0081); /* Orange to Pink */
+    }
+    50% {
+      border-image-source: linear-gradient(45deg, #ff0081, #ff9a9e); /* Pink to Red */
+    }
+    75% {
+      border-image-source: linear-gradient(45deg, #ff9a9e, #00f2ff); /* Red to Cyan */
+    }
+    100% {
+      border-image-source: linear-gradient(45deg, #00f2ff, #0072ff); /* Cyan to Blue */
+    }
+  }
+  
+  .animated-border {
+    border: 4px solid transparent;
+    border-image: linear-gradient(45deg, #00c6ff, #0072ff); /* Initial gradient */
+    border-image-slice: 1;
+    animation: gradientBorder 5s infinite linear;
+  }
