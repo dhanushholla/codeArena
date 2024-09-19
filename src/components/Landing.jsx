@@ -50,6 +50,7 @@ const Landing = () => {
     }
   }
   const onSelectChange = (sl) => {
+    clearHandler();
     console.log("selected Option...", sl);
     setLanguage(sl);
   };
